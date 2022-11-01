@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello😁", "Good to see you😁", "Hi there, how can I help?😁"],
+         "context": [""]
+        },
+ 	{"tag": "random",
+         "patterns": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","!","@","#","$","%","^","&","*","(",")","-","_","+","=","{","}","[","]","|",";",":","'","<",">","?","/","~","`",".",","],
+         "responses": ["Hi there, how can I help?🤗","Sorry, can't understand you🤗", "Please give me more info🤗", "Not sure I understand🤗"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!😊", "Have a nice day😊", "Bye! Come back again soon.😊"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!😄", "Any time!😄", "My pleasure😄"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you🤗", "Please give me more info🤗", "Not sure I understand🤗"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "Who are you?", "Who is your creator?"],
+         "responses": ["I am utkarsh's personal bot, I can tell you more about Utkarsh", "I am a chatbot created by utkarsh, he's someone i can tell you about"],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["Who is utkarsh?", "Utkarsh", "What does utkarsh do?", "Can you tell more about utkarsh?", "Can you tell about utkarsh?", "About"],
+         "responses": ["Utkarsh is an aspiring Data Scientist highly enthusiastic in learning new things", "Utkarsh's core comeptency is Data science,Finance,Statistics" ,"Utkarsh is currently working on a decentralized information markets platform and he is keenly interested in building no code websites, workflow automations and statistcal data models"],
+         "context": [""]
+        },
+        {"tag": "education",
+         "patterns": ["What are Utkarsh's educational qualifications?", "Qualifications", "Education", "Studies", "Graduation", "Marks", "Achievements" ],
+         "responses": ["Utkarsh is currently pursuing his Bachelor of Technology in Data Science and Engineering", "Bachelor of Technology in Data Science and Engineering , Mit manipal"],
+         "context": [""]
+        },
+        {"tag": "work_experience",
+         "patterns": ["Work experience", "Utkarsh's work history", "Work", "Experience", "Can you tell me what Utkarsh has done so far?"],
+         "responses": ["He has worked for Enactus Manipal", "He has been part of various Virtual Internships and Certificaions through which he has gained the right amount of practical experience"],
+         "context": ["Enactus Manipal", "Virtual Internship"]
+        },
+        {"tag": "enactus_manipal",
+         "patterns": ["Enactus Manipal","Enactus"],
+         "responses": ["Responsible for Economic Feasibility Analysis at Enactus manipal ", "Responsible for Business Development at Enactus manipal"],
+         "context": [""]
+        },
+        {"tag": "virtual_internship",
+         "patterns": ["Name", "Which", "How many", "Name the virtual internships done", "List the virtual internships you have completed", "Give the names of the virtual internships you've completed" ],
+         "responses": ["Tata Data Visualisation: Empowering Business with Effective Insights", "JPMorgan Chase Investment Banking Virtual Experience"],
+         "context": [""]
+        },
+        {"tag": "projects",
+         "patterns": ["What projects has Utkarsh worked on?", "What are some of Utkarsh's projects?", "Projects", "Can you tell me about the projects Utkarsh has worked on?"],
+         "responses": ["Movie recommendation system", "Chatbot", "Financial anaylysis using python"],
+         "context": ["Movie recommendation system", "Chatbot", "Financial analysis"]
+        },
+        {"tag": "movie_recommendation_system",
+         "patterns": ["How does a movie recommendation system work?", "What is the process of recommending movies?", "How do movie recommendations work?", "movie recommendation", "movie project"],
+         "responses": ["Collaborative Filtering is based on, “Tell me what is popular among my friends and other users and I would like to watch that too!” It tries to find group of users who are most similar and provide recommendation to one particular user based on the similar liking within the group."],
+         "context": [""]
+        },
+        {"tag": "chatbot",
+         "patterns": ["How does a chatbot work?", "What is the process of creating a chatbot?", "How does chatbot automation work?", "chatbot", "chatbot project"],
+         "responses": ["This project is to create conversational chatbot using Sequence to sequence LSTM models. Sequence to sequence learning is about training models to convert from one domain to sequences another domain."],
+         "context": [""]
+        },
+        {"tag": "financial_analysis",
+         "patterns": ["How does a financial anayalysis model work?", "What is the process of analysing stock prices?", "How do models work?", "financial analysis", "stocks project"],
+         "responses": ["Python finance tools help analysts to analyze stock market predictions and for stock-related machine learning technologies. Its robust modeling features and simple nature make it a favorite tool for analysts, traders, and researchers."],
+         "context": [""]
+        }
+   ]
+}
