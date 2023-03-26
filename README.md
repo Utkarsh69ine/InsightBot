@@ -23,7 +23,8 @@ tensorflow, keras, nltk, pickle. If not, then install the modules using the comm
 
 While executing the file "train_chatbot.py" if you get some error like - "ImportError: cannot import name 'tf_utils'", uninstall keras using the command - {pip uninstall keras}, then reinstall keras using the command - {pip install keras==2.2.0}. Try executing the file, i hope it works properly ! 
 
-## Open report file for project explanation
+## [Open report file for project explanation](https://www.notion.so/InsightBot-using-Python-b6138ffca81241e685978dc4050bd109?pvs=4)
+
 Our objective is to create a personal chatbot that can communicate and perform human-like actions for portfolio websites.
 
 With the help of a database containing categories, patterns, and responses, InsightBot will be trained to understand the user's intent and provide relevant responses. Our retrieval-based chatbot uses pre-defined input patterns and responses to select the correct answer using a specific selection method.
@@ -31,3 +32,5 @@ With the help of a database containing categories, patterns, and responses, Insi
 To achieve this, we will be using natural language processing (NLP) to map user input to an intent, which will classify the message and generate an appropriate predefined response. By leveraging deep learning techniques such as LSTM, we aim to create a smart piece of software that can communicate and perform human-like actions.
 
 Join us on this exciting journey as we develop InsightBot using Python, NLTK, and Keras to build a cutting-edge chatbot that revolutionizes customer communication, marketing on social networking sites, and instant messaging with clients.
+
+![](https://pbs.twimg.com/media/FsKSu67aMAEvGs9?format=png&name=large)
